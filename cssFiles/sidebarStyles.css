@@ -1,0 +1,38 @@
+/* sidebar content styles */
+
+.sidebarContainer {
+    grid-area: sidebar;
+    border: rgb(255, 213, 0, 0) 2px solid;
+    height: fit-content;
+    margin: 0% 0% 5% 0%;
+    padding: 2%;
+}
+
+
+
+.aboutContainer {
+    border: rgb(0, 0, 0, 0.2) 2px solid;
+    background-color: #d0c0a7;
+    padding: 5%;
+    text-align: center;
+}
+
+.archiveContainer {
+    border: rgb(0, 0, 0, 0.1) 2px solid;
+    text-align: center;
+}
+
+.titleText {
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+
+.followContainer {
+    border: rgb(0, 0, 0, 0.2) 2px solid;
+    background-color: #d0c0a7;
+    padding: 5%;
+    text-align: center;
+}

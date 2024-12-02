@@ -1,0 +1,47 @@
+/* general css styles for the tags */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c0ac8f;
+    border: #444 0px solid;
+
+}
+
+h1 {
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+
+}
+
+h3 {
+    font-weight: 100px;
+    margin: 0px;
+    padding: 0px 5% 10px 5%;
+}
+
+h6 {
+    margin: 0px 10px 10px 10px;
+    padding: 10px 5% 10px 5%;
+    font-weight: 100;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(59, 44, 34)
+}
+
+a:hover {
+    color: rgb(129, 62, 91);
+}

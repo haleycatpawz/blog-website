@@ -1,0 +1,127 @@
+
+/* styles for the blog header, title/navigation */
+
+
+#headerTitle {
+    border: 0px solid #d0c0a7;
+    background-color: #d0c0a7;
+    width: 100%;
+    padding: 0%;
+    text-align: center;
+    grid-area: head;
+  }
+  
+  .titleTextStyle {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 100;
+    font-size: 350%;
+    font: 100 italic 50px 'Courier New', Courier, monospace;
+  
+  }
+
+  .navBoxTopContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .navBoxBottomContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000000;
+    width: 100%;
+    height: 25px;
+  }
+  
+  .subscribeBox {
+    display: inline-block;
+    background-color: #d0c0a7;
+    border: 0px solid rgb(83, 83, 83);
+    border-radius: 10%;
+    text-decoration: underline;
+    padding: 0% 5% 0% 5%;
+    height: 90%;
+    text-align: center;
+  }
+  
+  .searchBoxContainer {
+    border: 0px solid rgb(83, 83, 83);
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 0% 0% 0%;
+    width: 40%;
+    height: 100%;
+  }
+  
+  .searchBox {
+    border: 0px solid pink;
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  #searchInput {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5%;
+    width: 60%;
+    height: 100%;
+  }
+  
+  #searchButton {
+    border: 0px solid pink;
+    border-radius: 15%;
+    width: 20%;
+    height: 100%;
+    font-size: medium;
+  }
+  
+  #searchButton:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+  }
+  
+  #searchIcon {
+    border: 0px solid pink;
+    width: 10px;
+    font-size: medium;
+  }
+  
+  .navContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #938168;
+    border-width: 2px 0px 2px 0px;
+    height: 100px;
+    grid-area: nav;
+    margin-bottom: 2%;
+  }
+  
+  .navBox {
+    border: rgb(0, 0, 0, 0.2) 2px solid;
+    box-shadow: 1px 3px 5px #00000020;
+    border-radius: 10%;
+    background-color: #00000020;
+    width: 20%;
+    padding: 1%;
+    margin: 2%;
+    text-align: center;
+  
+  
+  }
+  
+  .navBox:hover {
+    background-color: #00000040;
+    box-shadow: 1px 5px 6px #00000020;
+    cursor: pointer;
+  }
+  

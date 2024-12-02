@@ -1,0 +1,14 @@
+
+/* styles for footer section */
+
+.footer {
+    background-color: #d0c0a7;
+    grid-area: footer;
+    border: rgb(0, 0, 0) 0px solid;
+    padding: 2%;
+    color: black;
+    font: italic 1.2em 'Times New Roman', Times, serif;
+    margin: 0px;
+    text-align: center;
+  
+  }

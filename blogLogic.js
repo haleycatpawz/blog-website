@@ -2,9 +2,8 @@
 
 
 const headerCode = `
-    <div id="headerTitle">
-    <h1 class="titleTextStyle">The Cat's Meow</h1></div>
-
+<div id="headerTitle">
+<h1 class="titleTextStyle">The Cat's Meow</h1></div>
  <!-- NavBar here-->
 <nav class="navContainer">
 <div class="navBoxTopContainer">

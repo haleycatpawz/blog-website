@@ -1,6 +1,6 @@
-@import url(cssFiles/tagStyles.css);
-@import url(cssFiles/headerStyles.css);
-@import url(cssFiles/footerStyles.css);
+@import url(tagStyles.css);
+@import url(headerStyles.css);
+@import url(footerStyles.css);
 
 
 .mainContainer {

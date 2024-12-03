@@ -8,7 +8,7 @@ const headerCode = `
 <nav class="navContainer">
 <div class="navBoxTopContainer">
 <a href="index.html" class="navBox">Home</a>
-<a href="about.html" class="navBox">About</a>
+<a href="/pages/about.html" class="navBox">About</a>
 <a href="index.html" class="navBox">Recent</a>
 </div>
 <div class="navBoxBottomContainer">
@@ -20,6 +20,6 @@ const headerCode = `
 </div>
 </nav>
 `;
-const headerElement = document.getElementById('header');
+const headerElement = document.getElementById('header1');
 
 headerElement.innerHTML = headerCode;

@@ -1,5 +1,5 @@
-@import url(cssFiles/tagStyles.css);
-@import url(cssFiles/sidebarStyles.css);
+@import url(tagStyles.css);
+@import url(sidebarStyles.css);
 
 a {
     text-decoration: underline;
